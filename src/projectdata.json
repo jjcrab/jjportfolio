@@ -1,0 +1,44 @@
+[
+	{	
+		"id": 1,
+		"img":"projectimg1.png",
+		"title":"The Little Art Den",
+		"tech": "Python, Django, PostgreSQL, AWS S3, Docker",
+		"info": "A full stack app for art school students to showcase and sell their artworks.",
+		"frontendurl":"https://the-art-den-front.herokuapp.com/",
+		"backendurl":"https://pacific-badlands-47817.herokuapp.com/",
+		"frontendrepo":"https://github.com/jjcrab/the-art-den-front",
+		"backendrepo":"https://github.com/jjcrab/the-art-den-backend/tree/devnodocker"
+
+	},
+	{
+		"id":2,
+		"img":"projectimg2.png",
+		"title":"Michelin Stars Finder",
+		"tech": "Node, Express, MongoDB, Mongoose, Mongo Atlas",
+		"info": "A full stack app that displays Michelin Star restaurants in Washington D.C. with their details and reviews.",
+		"frontendurl":"https://the-art-den-front.herokuapp.com/",
+		"backendurl":"https://michelin-restaurants-finder.herokuapp.com/restaurants",
+		"frontendrepo":"https://github.com/the-nerds-herd/michelin-frontend",
+		"backendrepo":"https://github.com/the-nerds-herd/michelin-backend"
+	},
+	{	
+		"id":3,
+		"img": "projectimg3.png",
+		"title":"Travel Safe",
+		"tech": "React, fetch, CSS, Style Components, Travel Advisory API",
+		"info": "A front end app to assess travel risk and advisories for all the countries which can help travelers to prepare their trips",
+		"frontendurl":"https://jjtravelsafe.herokuapp.com/",
+		"frontendrepo":"https://github.com/jjcrab/travel-safe"
+	},
+	{	
+		"id":4,
+		"img":"projectimg4.png",
+		"title":"Enchanted Rose",
+		"tech": "HTML, CSS, JavaScrip",
+		"info": "A unique version of the Hangman game inspired by Disney Beauty and the Beast.",
+		"frontendurl":"https://jjcrab.github.io/Enchanted-Rose/",
+		"frontendrepo":"https://github.com/jjcrab/Enchanted-Rose"
+	}
+
+]

@@ -4,6 +4,7 @@ import profilepic from './images/profilepic.png';
 const About = () => {
 	return (
 		<div id='about'>
+			<div className='aboutdiv'></div>
 			<h1>About Me</h1>
 			<div className='aboutMe'>
 				<div>

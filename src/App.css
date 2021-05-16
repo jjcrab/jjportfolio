@@ -26,6 +26,27 @@ header {
 }
 
 /* ===========================About===================================== */
+.about {
+	height: 100vh;
+}
+.aboutdiv {
+	height: 10vh;
+	background-color: yellow;
+}
 .aboutMe {
+	display: flex;
+}
+
+/* ===========================Projects===================================== */
+
+.projectImg {
+	width: 50vw;
+}
+.projectdiv {
+	height: 10vh;
+	background-color: yellow;
+}
+.eachProject {
+	margin-top: 5vh;
 	display: flex;
 }

@@ -28,9 +28,9 @@ header {
 	background-color: rgb(24, 65, 119);
 } */
 
-.sociallink {
-	padding-left: 2px;
-	padding-right: 2px;
+.largesociallink {
+	padding-left: 4px;
+	padding-right: 4px;
 }
 .collaps {
 	/* background-color: teal; */
@@ -93,6 +93,7 @@ header {
 }
 .homelink h3 {
 	color: coral;
+	font-weight: 600;
 }
 .homelink h3:hover {
 	color: rgb(117, 26, 145);
@@ -295,10 +296,17 @@ a,
 	color: rgb(54, 8, 92);
 	font-style: italic;
 }
-.links:hover {
-	color: rgb(139, 135, 135);
+
+.links,
+a:hover {
+	/* color: rgb(139, 135, 135); */
+	color: red;
 }
 .navlink {
 	font-style: normal;
 	font-size: large;
+}
+
+.largesociallink:hover {
+	color: red;
 }

@@ -39,36 +39,29 @@ const Navi = () => {
 						</Nav.Link>
 					</Nav>
 					<Navbar.Brand className='social d-flex justify-content-center'>
-						<Nav.Link
+						<a
 							href='https://www.linkedin.com/in/jingjinglisoftware/'
 							target='_blank'
 							rel='noreferrer'
-							className='sociallink'>
-							<LinkedInIcon
-								fontSize='large'
-								style={{ color: 'rgb(24, 65, 119)' }}
-							/>
-						</Nav.Link>
-						<Nav.Link
+							className='largesociallink'>
+							<LinkedInIcon fontSize='large' />
+						</a>
+
+						<a
 							href='https://twitter.com/Jingjing_Codes'
 							target='_blank'
 							rel='noreferrer'
-							className='sociallink'>
-							<TwitterIcon
-								fontSize='large'
-								style={{ color: 'rgb(24, 65, 119)' }}
-							/>
-						</Nav.Link>
-						<Nav.Link
+							className='largesociallink'>
+							<TwitterIcon fontSize='large' />
+						</a>
+
+						<a
 							href='https://github.com/jjcrab'
 							target='_blank'
 							rel='noreferrer'
-							className='sociallink'>
-							<GitHubIcon
-								fontSize='large'
-								style={{ color: 'rgb(24, 65, 119)' }}
-							/>
-						</Nav.Link>
+							className='largesociallink'>
+							<GitHubIcon fontSize='large' />
+						</a>
 					</Navbar.Brand>
 				</Navbar.Collapse>
 			</Navbar>

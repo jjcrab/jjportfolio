@@ -1,19 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .App {
 	text-align: center;
 	margin: 5vh auto;
-	width: 95%;
+	width: 100vw;
 	/* height: 90vh; */
 	background: white;
 	/* display: flex;
 	flex-direction: column; */
 }
 
+h1,
+h3 {
+	text-align: center;
+	font-family: 'Courgette', sans-serif;
+	/* font-size: 3em; */
+	color: rgb(53, 53, 51);
+}
 /* ===========================Header===================================== */
 header {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
+}
+/* .social {
+	background-color: rgb(24, 65, 119);
+} */
+
+.sociallink {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.collaps {
+	/* background-color: teal; */
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+	.collaps {
+		display: flex;
+		flex-direction: column;
+	}
+	.navlink {
+		margin-top: 2px;
+		margin-bottom: 0px;
+		padding-bottom: 1px;
+	}
+	.sociallink {
+		padding: 2px 2px;
+	}
+}
+
+.collaps-s {
+	/* background-color: teal; */
+	display: flex;
+	justify-content: center;
+}
+.logo {
+	/* background-color: yellow; */
+	width: 8vw;
+}
+
+.berger {
+	background-color: rgb(253, 250, 255);
+	/* position: relative; */
+	/* margin-left: 50vw; */
+	border: white;
+	font-size: 30px;
+}
+.toggle {
+	background-color: red;
 }
 
 /* ===========================Home===================================== */
@@ -23,30 +82,223 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
+	background: linear-gradient(
+		to bottom right,
+		rgb(211, 190, 209),
+		rgb(247, 241, 188)
+	);
 }
-
+.homelink {
+	margin-top: 100px;
+}
+.homelink h3 {
+	color: coral;
+}
+.homelink h3:hover {
+	color: rgb(117, 26, 145);
+}
+.home span {
+	color: rgb(179, 13, 76);
+	font-weight: 900;
+}
 /* ===========================About===================================== */
 .about {
-	height: 100vh;
+	width: 90%;
+	margin: auto;
+	height: auto;
 }
 .aboutdiv {
-	height: 10vh;
-	background-color: yellow;
+	height: 20vh;
+	/* background-color: yellow; */
 }
 .aboutMe {
 	display: flex;
+	justify-content: space-around;
+	/* padding-bottom: 20px; */
+}
+.profilediv {
+	width: 40%;
+	padding: auto;
+	/* background-color: yellow; */
+	display: flex;
+	align-items: center;
+}
+.profilediv img {
+	width: 100%;
+}
+.introduction {
+	width: 40%;
+	padding-top: 5vh;
 }
 
+.introduction h3,
+p,
+h5 {
+	text-align: left;
+}
+
+@media only screen and (max-width: 860px) {
+	.aboutMe {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 30px;
+	}
+	.profilediv {
+		padding: auto;
+		/* background-color: yellow; */
+		width: 100%;
+	}
+	.introduction {
+		width: 100%;
+	}
+	.profilediv img {
+		width: 90%;
+		margin: auto;
+	}
+	.introduction h3,
+	p,
+	h5 {
+		text-align: center;
+	}
+}
 /* ===========================Projects===================================== */
 
+#projects {
+	margin-bottom: 5vh;
+	width: 100%;
+	margin: auto;
+	background-color: rgb(243, 243, 211);
+}
 .projectImg {
-	width: 50vw;
+	width: 100%;
+	/* height: 90%; */
+}
+.projectimgdiv {
+	width: 50%;
+}
+.projectcard {
+	width: 40%;
 }
 .projectdiv {
-	height: 10vh;
-	background-color: yellow;
+	height: 20vh;
+	/* background-color: yellow; */
 }
-.eachProject {
-	margin-top: 5vh;
+.projectsection {
+	margin-top: 20px;
+	width: 100%;
+	/* background-color: turquoise; */
 	display: flex;
+	flex-direction: column;
+	/* align-items: center;
+	justify-content: center; */
+}
+
+.eachProject {
+	width: 90%;
+	margin: auto;
+	/* height: 70vh; */
+	/* min-height: 500px; */
+	margin-bottom: 10vh;
+	padding: 20px;
+	display: flex;
+	background-color: rgb(241, 205, 137);
+	justify-content: space-evenly;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.2rem 0.25rem tomato;
+	border-color: tomato;
+}
+.projectlinks {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+	.eachProject {
+		width: 100%;
+		/* height: 70vh; */
+		/* min-height: 500px; */
+		/* margin-top: 5vh; */
+		/* padding: 20px; */
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(243, 243, 165);
+		align-items: center;
+	}
+	.projectimgdiv {
+		width: 90%;
+	}
+	.projectcard {
+		margin: 20px;
+		width: 90%;
+	}
+	/* .projectsection {
+		margin-top: 0px;
+		background-color: blue;
+	} */
+}
+/* ===========================Contact===================================== */
+#contact {
+	height: 80vh;
+	background: linear-gradient(to bottom right, white, rgb(211, 190, 209));
+	/* display: flex;
+	flex-direction: column; */
+	/* text-align: center; */
+	/* justify-content: space-between; */
+}
+.contactdiv {
+	height: 20vh;
+	/* background-color: yellow; */
+}
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+
+	/* background-color: violet; */
+	width: 80%;
+	margin: auto;
+	height: 80%;
+}
+.contactInfo p {
+	text-align: center;
+	margin-top: 40px;
+}
+.contactback {
+	background-color: rgb(106, 155, 155);
+	width: 50px;
+	margin: auto;
+	padding: 10px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+/* ===========================Footer===================================== */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	/* background-color: tomato; */
+	height: 10vh;
+}
+.footer p {
+	margin-bottom: 0px;
+}
+.copyright {
+	margin-right: 10px;
+}
+
+/* ===========================Links and Buttons===================================== */
+a,
+.links {
+	text-decoration: none;
+	font-size: medium;
+	font-weight: 700;
+	color: rgb(54, 8, 92);
+	font-style: italic;
+}
+.links:hover {
+	color: rgb(139, 135, 135);
+}
+.navlink {
+	font-style: normal;
+	font-size: large;
 }

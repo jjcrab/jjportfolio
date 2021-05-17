@@ -302,7 +302,11 @@ a,
 	font-style: italic;
 }
 
-.links,
+.links:hover {
+	/* color: rgb(139, 135, 135); */
+	color: red;
+}
+
 a:hover {
 	/* color: rgb(139, 135, 135); */
 	color: red;

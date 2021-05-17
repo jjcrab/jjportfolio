@@ -96,7 +96,12 @@ header {
 	font-weight: 600;
 }
 .homelink h3:hover {
-	color: rgb(117, 26, 145);
+	color: rgb(245, 85, 57);
+	background: linear-gradient(
+		to bottom right,
+		rgb(193, 219, 219),
+		rgb(227, 247, 238)
+	);
 }
 .home span {
 	color: rgb(179, 13, 76);
@@ -309,4 +314,12 @@ a:hover {
 
 .largesociallink:hover {
 	color: red;
+}
+
+.navlink:hover {
+	background: linear-gradient(
+		to bottom right,
+		rgb(193, 219, 219),
+		rgb(227, 247, 238)
+	);
 }

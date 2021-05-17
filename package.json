@@ -1,6 +1,5 @@
-{
+{ "homepage": "https://github.com/jjcrab/jjportfolio",
   "name": "jjportfolio",
-  "homepage": "https://github.com/jjcrab/jjportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/jjcrab/jjportfolio/static/css/main.c2b235e5.chunk.css",
-    "main.js": "/jjcrab/jjportfolio/static/js/main.b985ce52.chunk.js",
-    "main.js.map": "/jjcrab/jjportfolio/static/js/main.b985ce52.chunk.js.map",
-    "runtime-main.js": "/jjcrab/jjportfolio/static/js/runtime-main.f0893cfa.js",
-    "runtime-main.js.map": "/jjcrab/jjportfolio/static/js/runtime-main.f0893cfa.js.map",
-    "static/css/2.61526bb2.chunk.css": "/jjcrab/jjportfolio/static/css/2.61526bb2.chunk.css",
-    "static/js/2.9a3b73fc.chunk.js": "/jjcrab/jjportfolio/static/js/2.9a3b73fc.chunk.js",
-    "static/js/2.9a3b73fc.chunk.js.map": "/jjcrab/jjportfolio/static/js/2.9a3b73fc.chunk.js.map",
-    "index.html": "/jjcrab/jjportfolio/index.html",
-    "static/css/2.61526bb2.chunk.css.map": "/jjcrab/jjportfolio/static/css/2.61526bb2.chunk.css.map",
-    "static/css/main.c2b235e5.chunk.css.map": "/jjcrab/jjportfolio/static/css/main.c2b235e5.chunk.css.map",
-    "static/js/2.9a3b73fc.chunk.js.LICENSE.txt": "/jjcrab/jjportfolio/static/js/2.9a3b73fc.chunk.js.LICENSE.txt",
-    "static/media/JingjingLiResume2021.1e0377d4.pdf": "/jjcrab/jjportfolio/static/media/JingjingLiResume2021.1e0377d4.pdf",
-    "static/media/logo.9764ebfb.png": "/jjcrab/jjportfolio/static/media/logo.9764ebfb.png",
-    "static/media/profilepic.e7141880.png": "/jjcrab/jjportfolio/static/media/profilepic.e7141880.png"
+    "main.css": "/jjportfolio/static/css/main.c2b235e5.chunk.css",
+    "main.js": "/jjportfolio/static/js/main.3a260326.chunk.js",
+    "main.js.map": "/jjportfolio/static/js/main.3a260326.chunk.js.map",
+    "runtime-main.js": "/jjportfolio/static/js/runtime-main.8bb070c4.js",
+    "runtime-main.js.map": "/jjportfolio/static/js/runtime-main.8bb070c4.js.map",
+    "static/css/2.61526bb2.chunk.css": "/jjportfolio/static/css/2.61526bb2.chunk.css",
+    "static/js/2.c6aedfb9.chunk.js": "/jjportfolio/static/js/2.c6aedfb9.chunk.js",
+    "static/js/2.c6aedfb9.chunk.js.map": "/jjportfolio/static/js/2.c6aedfb9.chunk.js.map",
+    "index.html": "/jjportfolio/index.html",
+    "static/css/2.61526bb2.chunk.css.map": "/jjportfolio/static/css/2.61526bb2.chunk.css.map",
+    "static/css/main.c2b235e5.chunk.css.map": "/jjportfolio/static/css/main.c2b235e5.chunk.css.map",
+    "static/js/2.c6aedfb9.chunk.js.LICENSE.txt": "/jjportfolio/static/js/2.c6aedfb9.chunk.js.LICENSE.txt",
+    "static/media/JingjingLiResume2021.1e0377d4.pdf": "/jjportfolio/static/media/JingjingLiResume2021.1e0377d4.pdf",
+    "static/media/logo.9764ebfb.png": "/jjportfolio/static/media/logo.9764ebfb.png",
+    "static/media/profilepic.e7141880.png": "/jjportfolio/static/media/profilepic.e7141880.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0893cfa.js",
+    "static/js/runtime-main.8bb070c4.js",
     "static/css/2.61526bb2.chunk.css",
-    "static/js/2.9a3b73fc.chunk.js",
+    "static/js/2.c6aedfb9.chunk.js",
     "static/css/main.c2b235e5.chunk.css",
-    "static/js/main.b985ce52.chunk.js"
+    "static/js/main.3a260326.chunk.js"
   ]
 }

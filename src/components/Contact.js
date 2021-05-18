@@ -23,7 +23,7 @@ const Contact = () => {
 				</div>
 				<div className='contactback'>
 					<HashLink to='/#home' className='links'>
-						<NavigationIcon fontSize='large' style={{ color: 'black' }} />
+						<NavigationIcon fontSize='large' />
 					</HashLink>
 				</div>
 			</div>

@@ -327,3 +327,17 @@ a:hover {
 		rgb(227, 247, 238)
 	);
 }
+
+.contactback .links {
+	color: black;
+}
+.contactback .links:hover {
+	color: tomato;
+}
+.contactback:hover {
+	background: linear-gradient(
+		to bottom right,
+		rgb(93, 139, 133),
+		rgb(227, 247, 238)
+	);
+}

@@ -19,7 +19,7 @@ const Navi = () => {
 				/>
 				<Navbar.Collapse id='responsive-navbar-nav' className='collaps'>
 					<Nav className='mr-auto'>
-						<Nav.Link href='/home' className='navlink'>
+						<Nav.Link href='/#home' className='navlink'>
 							Home
 						</Nav.Link>
 						<Nav.Link href='/#about' className='navlink'>

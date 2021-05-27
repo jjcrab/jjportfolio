@@ -143,6 +143,10 @@ h5 {
 	text-align: left;
 }
 
+.aboutmebottom {
+	height: 20vh;
+}
+
 @media only screen and (max-width: 860px) {
 	.aboutMe {
 		display: flex;

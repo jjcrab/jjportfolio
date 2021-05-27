@@ -178,6 +178,7 @@ const About = () => {
 					<p>2015 - 2021: Risk Management Analyst</p>
 				</div>
 			</div>
+			<div className='aboutmebottom'></div>
 		</div>
 	);
 };

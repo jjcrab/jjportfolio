@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c155d5d.chunk.css",
-    "main.js": "/static/js/main.9691067d.chunk.js",
-    "main.js.map": "/static/js/main.9691067d.chunk.js.map",
+    "main.js": "/static/js/main.c3cb0ccb.chunk.js",
+    "main.js.map": "/static/js/main.c3cb0ccb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9776dead.js",
     "runtime-main.js.map": "/static/js/runtime-main.9776dead.js.map",
     "static/css/2.61526bb2.chunk.css": "/static/css/2.61526bb2.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.61526bb2.chunk.css.map": "/static/css/2.61526bb2.chunk.css.map",
     "static/css/main.1c155d5d.chunk.css.map": "/static/css/main.1c155d5d.chunk.css.map",
     "static/js/2.0ab261b4.chunk.js.LICENSE.txt": "/static/js/2.0ab261b4.chunk.js.LICENSE.txt",
-    "static/media/JingjingLiResume2021.36c7f696.pdf": "/static/media/JingjingLiResume2021.36c7f696.pdf",
+    "static/media/JingjingLiResume2021.e04396bc.pdf": "/static/media/JingjingLiResume2021.e04396bc.pdf",
     "static/media/logo.9764ebfb.png": "/static/media/logo.9764ebfb.png",
     "static/media/profilepic.e7141880.png": "/static/media/profilepic.e7141880.png"
   },
@@ -21,6 +21,6 @@
     "static/css/2.61526bb2.chunk.css",
     "static/js/2.0ab261b4.chunk.js",
     "static/css/main.1c155d5d.chunk.css",
-    "static/js/main.9691067d.chunk.js"
+    "static/js/main.c3cb0ccb.chunk.js"
   ]
 }
